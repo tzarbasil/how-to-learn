@@ -21,8 +21,13 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
+  position: absolute;
   width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  margin-top: 64px;
+  right: 0;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -82,19 +87,9 @@
   position: absolute;
   width: 765px;
   height: 608px;
-  bottom: 0;  
+  bottom: 0; 
   right: 0;
   z-index: 1;
-}
-
-.header__square-pic {
-  position: absolute;
-  width: 568px;
-  height: 568px;
-  background-color: #2f80ed;
-  margin-top: 64px;
-  right: 0;
-  z-index: 0;
 }
 
 .description {
@@ -104,7 +99,7 @@
 }
 
 .two-columns {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   width: 80%;
   margin-top: 100px;
@@ -232,7 +227,7 @@
 .kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
-  position:relative
+  position:relative;
 }
 
 .kaufman-title__theme_dark {
