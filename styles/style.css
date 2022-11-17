@@ -288,7 +288,6 @@
 }
 
 .kaufman__triangle {
-  z-index: 0;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   background-repeat: no-repeat;
