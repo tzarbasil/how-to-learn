@@ -235,7 +235,7 @@
   position:relative;
 }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
   width: 60%;
   margin: 90px auto 20px auto;
   font-size: 60px;
@@ -246,7 +246,7 @@
   z-index: 1;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   margin: 0 auto 0 auto;
   width: 60%;
   line-height: 34px;
