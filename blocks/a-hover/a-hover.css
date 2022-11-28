@@ -1,0 +1,5 @@
+a:hover {
+    opacity: 50%;
+    transition: 0.5s;
+    transition-timing-function: linear; 
+  }
